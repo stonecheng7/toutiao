@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <pre>
+            Hello VM.
+
+            #set($title = "nowcoder")
+            Include: #include("header.vm")<br>
+            Pares: #parse("header.vm")
+        </pre>
+    </body>
+</html>
